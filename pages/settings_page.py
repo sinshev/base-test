@@ -1,6 +1,6 @@
 from selenium.common.exceptions import TimeoutException
 
-from base import BasePage
+from base.base_page import BasePage
 from base.locators import settings_locators
 
 

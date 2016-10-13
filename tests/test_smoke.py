@@ -1,13 +1,19 @@
 import pytest
 
-from base import selenium_driver, config, resources
-from pages import LoginPage, Header, DashboardPage, LeadsPage, SettingsMenu, LeadsSettingsPage
+from base.wrapper import SeleniumWrapper
+from base import config, resources
+from pages.login_page import LoginPage
+from pages.header import Header
+from pages.dashboard_page import DashboardPage
+from pages.leads_page import LeadsPage
+from pages.settings_page import SettingsMenu, LeadsSettingsPage
 from utils.leads_api_calls import LeadsAPICalls
 
 
 class TestBaseCRM(object):
     @classmethod
     def setup_class(cls):
+        selenium_driver = SeleniumWrapper()
         cls.driver = selenium_driver.connect()
         cls.driver.implicitly_wait(10)
         cls.login_page = LoginPage(cls.driver)

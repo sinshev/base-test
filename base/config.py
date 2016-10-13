@@ -23,4 +23,4 @@ HOST = "https://api.getbase.com"
 TOKEN_URL = "/oauth2/token"
 
 EMAIL = 'sergey.inshev@gmail.com'
-PASSWORD = '1test1'
+PASSWORD = "1test1"

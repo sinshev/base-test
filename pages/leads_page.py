@@ -1,4 +1,4 @@
-from base import BasePage
+from base.base_page import BasePage
 from base.locators import leads_locators
 
 
