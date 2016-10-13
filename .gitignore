@@ -1,0 +1,9 @@
+*.py~
+*.pyc
+*.egg-info/
+.idea/*
+.idea/
+.cache/
+.cache/*
+.__pycache__/
+.__pycache__/*

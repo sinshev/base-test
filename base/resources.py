@@ -1,0 +1,12 @@
+"""Titles"""
+LOGIN_PAGE_TITLE = "Log in to your account"
+DASHBOARD_TITLE = "Dashboard"
+LEADS_TITLE = "Leads"
+NEW_LEAD_TITLE = "New lead"
+
+"""Lead data"""
+LEAD_FIRST_NAME = "John"
+LEAD_LAST_NAME = "Doe"
+LEAD_COMPANY_NAME = "Acme Corporation"
+LEAD_INITIAL_STATUS = "New"
+LEAD_CHANGED_STATUS = "Dude"
