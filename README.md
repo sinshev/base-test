@@ -22,6 +22,12 @@ To run all tests execute the command:
 To run the particular test execute the command:
 
 	>> python3 -m pytest -s --junitxml=./reports/report.xml ./tests/<test_name>
+
+To specify environment for test run execute the command:
+
+	>> python3 -m pytest -s --env=<ENVIRONMENT> tests/
+
+Available environments: `local`, `jenkins`.
 	
 **OVERVIEW**
 
@@ -41,3 +47,10 @@ The project structure is following:
 2. `pages` - Includes PageObject of BaseCRM platform.
 3. `tests` - Includes tests for BaseCRM project.
 4. `utils` - Includes API helpers and chromedriver.
+
+**JENKINS**
+
+To make possible to run tests on Jenkins, install Xvfb (X virtual framebuffer).
+On Ubuntu execute the command:
+
+	>> sudo apt-get install xvfb

@@ -2,3 +2,4 @@ selenium==2.53.6
 pytest==3.0.3
 requests==2.11.1
 basecrm==1.2.0
+PyVirtualDisplay==0.2.1
